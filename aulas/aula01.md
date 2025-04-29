@@ -233,7 +233,7 @@ botao = st.button('Enviar')
 # nome do arquivo base de dados
 ARQUIVO_DADOS = 'dados.txt'
 
-if st.button:
+if botao:
     if nome and aceita_termos:
         linha = f'{nome};{idade};{altura:.2f};{nascimento.strftime("%d/%m/%Y")}\n'
         
