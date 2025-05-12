@@ -262,7 +262,7 @@ if os.path.exists(ARQUIVO_DADOS):
         if linhas:
             for linha in linhas:
                 nome, idade, altura, nascimento = linha.strip().split(';')
-                st.write(f'👤 {nome}, {idade} anos, {altura} m, nascido em {nascimento}')
+                st.write(f'{nome}, {idade} anos, {altura} m, nascido em {nascimento}')
         else:
             st.info('Nenhum dado cadastrado ainda.')
 else:
